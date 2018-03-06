@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="BoderSearchBar.Page1"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:boderSearchBar="clr-namespace:BoderSearchBar;assembly=BoderSearchBar"
+    Title="Test Page">
+    <ContentPage.Content>
+        <boderSearchBar:CrossSearchBar
+            Margin="10"
+            Placeholder="Border SearchBar"
+            VerticalOptions="Start" />
+    </ContentPage.Content>
+</ContentPage>
